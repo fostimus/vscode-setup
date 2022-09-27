@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/Components/*"],
+      "page-components/*": ["./src/page-components/*"],
+      "static/*": ["./src/static/*"],
+      "styles/*": ["./src/styles/*"],
+      "theme": ["./src/theme"],
+      "media": ["./src/media"],
+      "helpers": ["./src/helpers"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
