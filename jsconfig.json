@@ -5,11 +5,6 @@
     "baseUrl": ".",
     "paths": {
       "components/*": ["./src/Components/*"],
-      "page-components/*": ["./src/page-components/*"],
-      "static/*": ["./src/static/*"],
-      "styles/*": ["./src/styles/*"],
-      "theme": ["./src/theme"],
-      "media": ["./src/media"],
       "helpers": ["./src/helpers"]
     }
   },
